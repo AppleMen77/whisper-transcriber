@@ -1,7 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Аудио и результаты
 *.wav
 *.mp3
-*.m4a
+*.mp4
+*.ogg
 transcript.txt
-__pycache__/
-venv/
-.venv/
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Модели
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
