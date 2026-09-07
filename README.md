@@ -47,7 +47,7 @@ pip install -r requirements.txt
 2. Запустите транскрибацию:
 
 ```bash
-python transcriber.py
+python transcriber.py имя_файла.wav
 ```
 
 3. Результат будет сохранён в `transcript.txt`
